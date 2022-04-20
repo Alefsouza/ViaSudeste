@@ -32,7 +32,6 @@ hr {
 /*Logo e Redes Social*/
 
 #header1 {
-    
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
@@ -172,6 +171,7 @@ label[for="bt_menu"]{
     width: 100%;
     float: left;
     position: relative;
+    cursor: pointer;
 }
 
 button.slick-prev {
