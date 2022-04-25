@@ -276,7 +276,7 @@ button.slick-next {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #f4f4f4;
+    background-color: #dcdcdc;
     text-align: center;    
     font-family: Calibri; 
     margin-top: auto; 
@@ -293,7 +293,7 @@ button.slick-next {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: #dcdcdc;
     font-family: Calibri;
 }
 
@@ -303,7 +303,7 @@ button.slick-next {
     align-items: center;
     text-align: center;
     margin: 20px auto;
-    background-color: #f4f4f4;
+    background-color: #dcdcdc;
     padding: 20px;
     margin-top: auto;
 }
@@ -370,7 +370,7 @@ button.slick-next {
     flex-direction: row;
     align-items: center;
     margin-top: 35px auto;
-    background-color: #f4f4f4;
+    background-color: #dcdcdc;
     font-family: Calibri;
     color: black;
 }
@@ -381,7 +381,7 @@ button.slick-next {
     align-items: center;
     text-align: center;
     margin: auto;
-    background-color: #f4f4f4;
+    background-color: #dcdcdc;
     padding: 20px;
     margin-top: auto;
 }
@@ -500,7 +500,7 @@ button.slick-next {
 }
 
 #sobrenos div {
-    margin: auto;
+    margin: auto 10px;
     background-color: #ffffff;
     padding: 50px;
 }
@@ -511,14 +511,6 @@ button.slick-next {
     font-family: Calibri;
 }
 
-#sobrenos #visao {
-    margin-top: 200px;
-}
-
-
-#sobrenos #valores {
-    margin-top: 200px;
-}
 
 /*INSTITUCIONAL - Departamento*/
 
