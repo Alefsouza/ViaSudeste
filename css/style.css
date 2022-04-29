@@ -1105,6 +1105,7 @@ button.slick-next {
         margin-top: 3px;
         margin-left: -100%;
         transition: all .4s;
+        height: auto;
     }
 
     #bt_menu:checked ~ .menu {
