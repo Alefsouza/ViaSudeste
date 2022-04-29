@@ -532,6 +532,7 @@ button.slick-next {
     font-size: 50px;
     font-family: Calibri;
     margin-top: 20px;
+    text-align: center;
 }
 
 #departamentos {
@@ -553,6 +554,7 @@ button.slick-next {
     font-size: 30px;
     font-family: Calibri;
     margin-top: 52px;
+    text-align: center;
 }
 
 #departamentos summary {
@@ -560,8 +562,12 @@ button.slick-next {
     color: green;
     font-size: 18px;
     cursor: pointer;
+    text-align: center;
 }
 
+#departamentos hr {
+    text-align: center;
+}
 /*ITINERÁRIOS*/
 
 #itinerarios_topo {
@@ -1146,7 +1152,7 @@ button.slick-next {
 
     #parceiros {
             height: 800px;
-            height: 115vh;
+            height: 130vh;
             justify-content: center;
             flex-direction: column;
         }
@@ -1155,10 +1161,10 @@ button.slick-next {
 
     #rodape {
         height: 800px;
-        height: 120vh;
+        height: 145vh;
         justify-content: center;
         flex-direction: column;
-        background-color: #f4f4f4;
+        background-color: #dcdcdc;
     }
 
 /*INSTITUCIONAL - Sobre nós*/
