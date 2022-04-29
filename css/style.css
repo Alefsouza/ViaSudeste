@@ -1094,7 +1094,7 @@ button.slick-next {
     text-align: center;
 }
 
-@media(max-width: 800px) {
+@media only screen and (max-width: 980px) {
 
     /*menu*/
     label[for="bt_menu"]{
@@ -1135,6 +1135,7 @@ button.slick-next {
         height: 65vh;
         justify-content: center;
         flex-direction: column;
+        height: auto;
     }
 
     /*Notícias*/
@@ -1145,6 +1146,7 @@ button.slick-next {
         justify-content: center;
         flex-direction: column;
         height: auto;
+        align-items: auto;
     }
 
 
@@ -1155,6 +1157,7 @@ button.slick-next {
             height: 130vh;
             justify-content: center;
             flex-direction: column;
+            height: auto;
         }
 
     /*Rodape*/
@@ -1165,6 +1168,7 @@ button.slick-next {
         justify-content: center;
         flex-direction: column;
         background-color: #dcdcdc;
+        height: auto;
     }
 
 /*INSTITUCIONAL - Sobre nós*/
