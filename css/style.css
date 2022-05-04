@@ -511,6 +511,47 @@ button.slick-next {
     font-family: Calibri;
 }
 
+#ISO {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+    text-align: center;    
+    font-family: Calibri;
+    margin: 20px auto;
+}
+
+#ISO h1 {
+    color: green;
+    font-size: 50px;
+    font-family: Calibri;
+    margin-top: 20px;
+}
+
+#ISO summary {
+    margin-top: 10px;
+    color: green;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#ISO hr {
+    text-align: center;
+}
+
+#ISO>p {
+    margin: 30px;
+    margin-top: auto;
+}
+
+#ISO div p {
+    margin: auto 10px;
+    
+}
 
 /*INSTITUCIONAL - Departamento*/
 
@@ -1159,6 +1200,7 @@ button.slick-next {
             justify-content: center;
             flex-direction: column;
             height: auto;
+            align-items: auto;
         }
 
     /*Rodape*/
@@ -1204,7 +1246,9 @@ button.slick-next {
         flex-direction: column;
         background-color: #ffffff;
         height: auto;
-    }    
+    }   
+    
+    
 
 /*INSTITUCIONAL - Departamentos*/
 
