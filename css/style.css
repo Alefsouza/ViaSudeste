@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+ 
 
 hr {
     border: none;
@@ -208,6 +209,8 @@ button.slick-next {
 
 
 /*Corpo Site*/
+
+
 #topo {
     display: flex;
     flex-direction: column;
@@ -443,6 +446,10 @@ button.slick-next {
 
 /*INSTITUCIONAL - Sobre nós*/
 
+/*#fullsobre {
+    background-image: linear-gradient(to right top, #fafdfa, #e9fbe9, #d7f8d7, #c6f5c6, #b4f2b4);
+}*/
+
 #sobrenos_topo {
     display: flex;
     flex-direction: column;
@@ -450,7 +457,6 @@ button.slick-next {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ffffff;
     text-align: center;    
     font-family: Calibri;   
     margin-top: 10px auto;
@@ -470,7 +476,6 @@ button.slick-next {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ffffff;
     text-align: center;    
     font-family: Calibri;   
     margin-top: 10px auto;
@@ -493,7 +498,6 @@ button.slick-next {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ffffff;
     text-align: center;    
     font-family: Calibri;
     margin-top: 10px;
@@ -501,7 +505,6 @@ button.slick-next {
 
 #sobrenos div {
     margin: auto 10px;
-    background-color: #ffffff;
     padding: 50px;
 }
 
@@ -518,7 +521,6 @@ button.slick-next {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ffffff;
     text-align: center;    
     font-family: Calibri;
     margin: 20px auto;
@@ -798,7 +800,71 @@ button.slick-next {
     padding: 45px;  
 }
 
+#cargo {
+    width: 99.6%;
+}
+
+#endereço {
+    width: 99.6%;
+}
+
+#cidade {
+    width: 49.5%;
+}
+
+#estado {
+    width: 49.5%;
+}
+
+#cep {
+    width: 49.5%;
+}
+
+#indicacao {
+    width: 99.6%;
+}
+
+#funcao {
+    width: 99.6%;
+}
+
+#periodo {
+    width: 99.6%;
+}
+
 #nome {
+    width: 99.6%;
+}
+
+#cnh {
+    width: 99.6%;
+}
+
+#n-cnh {
+    width: 99.6%;
+}
+
+#naturalidade {
+    width: 99.6%;
+}
+
+#idade {
+    width: 10.3%;
+}
+
+#sexo {
+    width: 10.6%;
+}
+
+#civil {
+    width: 99.6%;
+}
+
+#escolaridade {
+    width: 99.6%;
+}
+
+#u-emprego {
     width: 99.6%;
 }
 
