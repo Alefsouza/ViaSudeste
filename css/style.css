@@ -909,6 +909,10 @@ button.slick-next {
     flex-direction: row;
 }
 
+#trabalhe h3 {
+    color: green;
+}
+
 /*Notícias Recentes 1*/
 
 #pagnov1_topo {
