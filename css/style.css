@@ -885,7 +885,7 @@ button.slick-next {
 }
 
 #trabalhe button {
-    width: 80px;
+    width: 90px;
     height: 40px;
     border: solid 2px black;
     background-color: green;
@@ -893,6 +893,7 @@ button.slick-next {
     cursor: pointer;
     border-radius: 6px;
     font-weight: bolder;
+    margin: auto 2px;
 }
 
 #trabalhe button:hover {
@@ -903,7 +904,9 @@ button.slick-next {
 }
 
 #trabalhe #bt_cv {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 
 /*Notícias Recentes 1*/
