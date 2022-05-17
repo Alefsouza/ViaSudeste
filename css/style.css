@@ -909,8 +909,13 @@ button.slick-next {
     flex-direction: row;
 }
 
-#trabalhe h3 {
+#trabalhe summary {
     color: green;
+    cursor: pointer;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px;
 }
 
 /*Notícias Recentes 1*/
