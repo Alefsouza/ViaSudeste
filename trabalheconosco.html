@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8"/>
         <link rel="shortcut icon" type="imagex/png" href="./img/logoico.ico">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -77,7 +78,7 @@
         </section>
 
         <section id="trabalhe">
-            <form id="form" action="https://formsubmit.co/rh@viasudeste.com" method="POST" enctype="multipart/form-data">
+            <form id="form" action="processa.php" method="POST">
 
                 <div>
                     <details>
@@ -85,25 +86,25 @@
                 <summary id="sum">1) Informações Básicas</summary>
                         
                 <div>
-                    <input type="text" name="Cargo Pretendido" id="cargo" maxlength="100" placeholder="Cargo Pretendido" required
+                    <input type="text" name="CargoPretendido" id="cargo" maxlength="100" placeholder="Cargo Pretendido" required
                         autofocus />
                 </div><br />
                 
                 <div>
-                    <input type="text" name="Endereço do Candidato" id="endereço" maxlength="100" placeholder="Endereço" required
+                    <input type="text" name="EndereçodoCandidato" id="endereço" maxlength="100" placeholder="Endereço" required
                         autofocus />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Cidade do Candidato" id="cidade" maxlength="30" placeholder="Cidade"
+                    <input type="text" name="CidadedoCandidato" id="cidade" maxlength="30" placeholder="Cidade"
                            required autofocus />
 
-                    <input type="text" name="Estado do Candidato" id="estado" maxlength="20" placeholder="Estado"
+                    <input type="text" name="EstadodoCandidato" id="estado" maxlength="20" placeholder="Estado"
                           required autofocus />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Cep do Candidato" id="cep" maxlength="10" placeholder="CEP" required
+                    <input type="text" name="CepdoCandidato" id="cep" maxlength="10" placeholder="CEP" required
                         autofocus />
                 </div><br />
 
@@ -114,37 +115,37 @@
 
                 <div>
                     <h4>Você já trabalhou na Via Sudeste?</h4>
-                    <input type="radio" name="Trabalhou na empresa?" id="trabalhou-s" value="Sim" required>
+                    <input type="radio" name="Trabalhounaempresa" id="trabalhou-s" value="Sim" required>
                     <label for="trabalou-s">Sim</label><br/>
-                    <input type="radio" name="Trabalhou na empresa?" id="trabalhou-n" value="Não" required>
+                    <input type="radio" name="Trabalhounaempresa" id="trabalhou-n" value="Não" required>
                     <label for="trabalou-s">Não</label><br/>
                 </div><br/>
                 
                 <div>
-                    <input type="text" name="Qual foi a função?" id="funcao" maxlength="100" placeholder="Se sim, qual função?"
+                    <input type="text" name="Qualfoiafunção" id="funcao" maxlength="100" placeholder="Se sim, qual função?"
                         autofocus />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Qual foi o período?" id="periodo" maxlength="100" placeholder="Qual o período?"
+                    <input type="text" name="Qualfoioperíodo" id="periodo" maxlength="100" placeholder="Qual o período?"
                         autofocus />
                 </div><br />
                         </details>
                     </div>
 
-                <div>
+               <!-- <div>
                     <details>
                         <summary id="sum">2) Contato</summary>
                 <div>
-                    <input type="tel" name="Telefone do Candidato" id="telefone1" maxlength="20" placeholder="Telefone"
+                    <input type="tel" name="TelefonedoCandidato" id="telefone1" maxlength="20" placeholder="Telefone"
                             autofocus />
 
-                    <input type="tel" name="Celular do Candidato" id="celular" maxlength="20" placeholder="Celular"
+                    <input type="tel" name="CelulardoCandidato" id="celular" maxlength="20" placeholder="Celular"
                            required autofocus />
                 </div><br />
                 
                 <div>
-                    <input type="email" name="E-mail do Candidato" id="email1" maxlength="200" placeholder="E-mail" 
+                    <input type="email" name="E-maildoCandidato" id="email1" maxlength="200" placeholder="E-mail" 
                         required autofocus />
                 </div><br />
                 </details>
@@ -154,51 +155,51 @@
             <summary id="sum">3) Dados Pessoais
             </summary>
                 <div>
-                    <input type="text" name="Nome do Candidato" id="nome" maxlength="100" placeholder="Nome" required
+                    <input type="text" name="NomedoCandidato" id="nome" maxlength="100" placeholder="Nome" required
                         autofocus />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Categoria da CNH" id="cnh" maxlength="100" placeholder="CNH/Categoria" 
+                    <input type="text" name="CategoriadaCNH" id="cnh" maxlength="100" placeholder="CNH/Categoria" 
                         autofocus />
                 </div><br />
                 
                 <div>
-                    <input type="text" name="Número da CNH" id="n-cnh" maxlength="100" placeholder="Número CNH" 
+                    <input type="text" name="NúmerodaCNH" id="n-cnh" maxlength="100" placeholder="Número CNH" 
                         autofocus />
                 </div><br />
 
                 <div>
                     <h4>Validade da CNH:</h4>
-                    <input type="date" name="Validade da CNH" id="validade"
+                    <input type="date" name="ValidadedaCNH" id="validade"
                            autofocus />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Naturalidade do Candidato" id="naturalidade" maxlength="100" placeholder="Naturalidade" 
+                    <input type="text" name="NaturalidadedoCandidato" id="naturalidade" maxlength="100" placeholder="Naturalidade" 
                         autofocus required/>
                 </div><br />
                 
                 <div>
-                    <input type="text" name="Idade do Candidato" id="idade" maxlength="100" placeholder="Idade" 
+                    <input type="text" name="IdadedoCandidato" id="idade" maxlength="100" placeholder="Idade" 
                         autofocus required />
                 </div><br />
 
                 <div>
                     <label for="sexo"><h4>Sexo</h4></label>
-                    <select id="sexo" name="Sexo do Candidato" required>
+                    <select id="sexo" name="SexodoCandidato" required>
                         <option value="Masculino">Masculino</value>
                         <option value="Feminino">Feminino</value>
                     </select>
                 </div><br/>
                 
                 <div>
-                    <input type="text" name="Estado Civil do Candidato" id="civil" maxlength="100" placeholder="Estado Civil"
+                    <input type="text" name="EstadoCivildoCandidato" id="civil" maxlength="100" placeholder="Estado Civil"
                         autofocus required />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Grau de Escolaridade do Candidato" id="escolaridade" maxlength="100" placeholder="Grau de Escolaridade"
+                    <input type="text" name="GraudeEscolaridadedoCandidato" id="escolaridade" maxlength="100" placeholder="Grau de Escolaridade"
                         autofocus required />
                 </div><br />
 </details>
@@ -208,57 +209,58 @@
               <summary id="sum">4) Experiência Profissional</summary>
 
                 <div>
-                    <input type="text" name="Ultimo Emprego" id="u-emprego" maxlength="100" placeholder="Último Emprego" required
+                    <input type="text" name="UltimoEmprego" id="u-emprego" maxlength="100" placeholder="Último Emprego" required
                         autofocus />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Último Cargo" id="cargo" maxlength="100" placeholder="Cargo" 
+                    <input type="text" name="UltimoCargo" id="cargo" maxlength="100" placeholder="Cargo" 
                         autofocus />
                 </div><br />
                 
                 <div>
-                    <input type="text" name="Endereço do último emprego" id="endereço" maxlength="100" placeholder="Endereço" 
+                    <input type="text" name="Endereçodoultimoemprego" id="endereço" maxlength="100" placeholder="Endereço" 
                         autofocus />
                 </div><br />
 
                 <div>
-                    <input type="tel" name="Telefone do último emprego" id="telefone1" maxlength="20" placeholder="Telefone"
+                    <input type="tel" name="Telefonedoultimoemprego" id="telefone1" maxlength="20" placeholder="Telefone"
                            autofocus />
                 </div><br/>
                 
                 <div>
                     <h4>Data Admissão:</h4>
-                    <input type="date" name="Data Admissão" id="admissao"
+                    <input type="date" name="DataAdmissao" id="admissao"
                            autofocus />
                 </div><br />
 
                 <div>
                     <h4>Data Demissão:</h4>
-                    <input type="date" name="Data Demissão" id="demissao"
+                    <input type="date" name="DataDemissao" id="demissao"
                            autofocus />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Salario Inicial" id="salario-i" maxlength="100" placeholder="Salário Inicial" 
+                    <input type="text" name="SalarioInicial" id="salario-i" maxlength="100" placeholder="Salário Inicial" 
                         autofocus />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Salario Final" id="salario-f" maxlength="100" placeholder="Salário Final" 
+                    <input type="text" name="SalarioFinal" id="salario-f" maxlength="100" placeholder="Salário Final" 
                         autofocus />
                 </div><br />
 
                 <div>
-                    <textarea name="Motivo da Saida" id="obs" cols="144" rows="3" placeholder="Motivo da Saída" 
+                    <textarea name="MotivodaSaida" id="obs" cols="144" rows="3" placeholder="Motivo da Saída" 
                         required autofocus ></textarea>
                 </div><br />
 </details>
-</div>
+</div>-->
+</form>
                 <div id="bt_cv">
-                    <button form="form">Enviar</button>
-                </div>
-            </form>
+                    <a href="./trabalheconosco2.html"><button id="bt_cv2">Próximo >></button></a>
+    </div>
+            
 
         </section>
 

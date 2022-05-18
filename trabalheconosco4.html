@@ -78,61 +78,61 @@
         </section>
 
         <section id="trabalhe">
-            <form id="form" action="https://formsubmit.co/alef.silva@viasudeste.com" method="POST" enctype="multipart/form-data">
+            <form id="form" action="processa.php" method="POST">
 
                 <h3>4) Experiência Profissional </h3><br />
-
                 <div>
-                    <input type="text" name="Ultimo Emprego" id="u-emprego" maxlength="100" placeholder="Último Emprego" required
+                    <input type="text" name="UltimoEmprego" id="u-emprego" maxlength="100" placeholder="Último Emprego" required
                         autofocus />
                 </div><br />
 
                 <div>
-                    <input type="text" name="Cargo" id="cargo" maxlength="100" placeholder="Cargo" 
+                    <input type="text" name="UltimoCargo" id="cargo" maxlength="100" placeholder="Cargo" 
                         autofocus />
                 </div><br />
                 
                 <div>
-                    <input type="text" name="Endereço" id="endereço" maxlength="100" placeholder="Endereço" 
+                    <input type="text" name="Endereçodoultimoemprego" id="endereço" maxlength="100" placeholder="Endereço" 
                         autofocus />
                 </div><br />
 
                 <div>
-                    <input type="tel" name="Telefone" id="telefone1" maxlength="20" placeholder="Telefone"
+                    <input type="tel" name="Telefonedoultimoemprego" id="telefone1" maxlength="20" placeholder="Telefone"
                            autofocus />
                 </div><br/>
                 
                 <div>
                     <h4>Data Admissão:</h4>
-                    <input type="date" name="Data Admissão" id="admissao"
+                    <input type="date" name="DataAdmissao" id="admissao"
                            autofocus />
                 </div><br />
 
                 <div>
                     <h4>Data Demissão:</h4>
-                    <input type="date" name="Data Demissão" id="demissao"
+                    <input type="date" name="DataDemissao" id="demissao"
                            autofocus />
                 </div><br />
 
                 <div>
-                    <input type="number" name="Salario Inicial" id="salario-i" maxlength="100" placeholder="Salário Inicial" 
+                    <input type="text" name="SalarioInicial" id="salario-i" maxlength="100" placeholder="Salário Inicial" 
                         autofocus />
                 </div><br />
 
                 <div>
-                    <input type="number" name="Salario Final" id="salario-f" maxlength="100" placeholder="Salário Final" 
+                    <input type="text" name="SalarioFinal" id="salario-f" maxlength="100" placeholder="Salário Final" 
                         autofocus />
                 </div><br />
 
                 <div>
-                    <textarea name="Motivo da Saida" id="obs" cols="144" rows="3" placeholder="Motivo da Saída" 
+                    <textarea name="MotivodaSaida" id="obs" cols="144" rows="3" placeholder="Motivo da Saída" 
                         required autofocus ></textarea>
                 </div><br />
 
-                <div id="bt_cv">    
-                    <button>Enviar</button>
-                </div>
             </form>
+
+            <div id="bt_cv">
+                <button form="form">Enviar</button>
+            </div>
         
         </section>
 
