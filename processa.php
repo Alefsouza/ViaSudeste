@@ -46,7 +46,7 @@ if($CargoPretendido && $EnderecoCandidato && $CidadeCandidato && $EstadoCandidat
 $NomeCandidato && $Naturalidade && $IdadeCandidato && $SexoCandidato && $EstadoCivil && $GrauEscolaridade && $UltimoEmprego && $MotivoSaida){
     $mail = new PHPMailer ();
 
-   
+        $mail->charSet = "UTF-8";
         $mail->SMTPDebug = 2;
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
@@ -104,13 +104,54 @@ $NomeCandidato && $Naturalidade && $IdadeCandidato && $SexoCandidato && $EstadoC
                         <strong>Para qualquer problema ou dúvida, por favor mandar e-mail para: ti@viasudeste.com</strong>
                         ";
                         
-        $mail->AltBody = 'E-mail teste corpo';
+        $mail->AltBody = "Segue os dados do nosso Candidato:<br><br>
+        Nome: {$NomeCandidato}<br>
+        Cargo que deseja ocupar: {$CargoPretendido}<br>
+        Endereço: {$EnderecoCandidato}<br>
+        Cidade: {$CidadeCandidato}<br>
+        Estado: {$EstadoCandidato}<br>
+        CEP: {$CepCandidato}<br><br>
+
+        Naturalidade: {$Naturalidade}<br>
+        Idade: {$IdadeCandidato}<br>
+        Sexo: {$SexoCandidato}<br>
+        Estado Civil: {$EstadoCivil}<br>
+        Grau de Escolaridade: {$GrauEscolaridade}<br><br>
+
+
+        Telefone: {$TelefoneCandidato}<br>
+        Celular: {$CelularCandidato}<br>
+        E-mail: {$EmailCandidato}<br><br>
+
+        Indicação: {$Indicacao}<br>
+        Já trabalhou na empresa? {$TrabalhouNaEmpresa}<br>
+        Em qual a função? {$Qualfuncao}<br>
+        Qual foi o período? {$Qualperiodo}<br><br>
+        
+        Qual a categoria da CNH? {$CategoriaCNH}<br>
+        Qual o número da CNH? {$NumeroCNH}<br>
+        Qual a validade da CNH? {$ValidadeCNH}<br><br>
+        
+        Qual foi o último emprego? {$UltimoEmprego}<br>
+        Qual foi o último cargo? {$UltimoCargo}<br>
+        Qual o endereço do último emprego? {$EndUltimoEmprego}<br>
+        Qual o telefone do último emprego? {$TelUltimoEmprego}<br>
+        Qual foi a data de admissão? {$DataAdmissao}<br>
+        Qual foi a data de demissão? {$DataDemissao}<br>
+        Qual foi o salário inicial? {$SalarioInicial}<br>
+        Qual foi o salário final? {$SalarioFinal}<br>
+        Qual foi o motivo da saída? {$MotivoSaida}<br><br>
+
+        Data: {$data}<br>
+
+        Para qualquer problema ou dúvida, por favor mandar e-mail para: ti@viasudeste.com
+        ";
 
         if ($mail->send()) {
-            echo 'E-mail enviado com sucesso!';
+            echo "<strong>E-mail enviado com sucesso!</strong>";
         } else {
-                echo 'E-mail não foi enviado!';
+                echo "<strong>E-mail não foi enviado!</strong>";
         } 
     }else {
-        echo 'E-mail não enviado, por favor preencher campos necessários!';
+        echo "<strong>E-mail não enviado, por favor preencher campos necessários!</strong>";
     }
