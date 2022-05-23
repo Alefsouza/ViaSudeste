@@ -76,67 +76,82 @@
 
             <p><b>Teremos prazer em ter você como nosso colaborador!</b></p>
         </section>
+        <div id="formulario">
+            
+        <form id="form1" action="processa.php" method="POST">
+            <div id="1">
+                        
+                    <h3>1) Informações Básicas</h3>
+                            
+                    <div>
+                        <input type="text" name="CargoPretendido" id="cargo" maxlength="100" placeholder="Cargo Pretendido" required
+                            autofocus />
+                    </div><br />
+                    
+                    <div>
+                        <input type="text" name="EndereçodoCandidato" id="endereço" maxlength="100" placeholder="Endereço" required
+                            autofocus />
+                    </div><br />
+    
+                    <div>
+                        <input type="text" name="CidadedoCandidato" id="cidade" maxlength="30" placeholder="Cidade"
+                               required autofocus />
+    
+                        <input type="text" name="EstadodoCandidato" id="estado" maxlength="20" placeholder="Estado"
+                              required autofocus />
+                    </div><br />
+    
+                    <div>
+                        <input type="text" name="CepdoCandidato" id="cep" maxlength="10" placeholder="CEP" required
+                            autofocus />
+                    </div><br />
+    
+                    <div>
+                        <input type="text" name="Indicacao" id="indicacao" maxlength="100" placeholder="Indicação" 
+                            autofocus />
+                    </div><br />
+    
+                    <div>
+                        <h4>Você já trabalhou na Via Sudeste?</h4>
+                        <input type="radio" name="Trabalhounaempresa" id="trabalhou-s" value="Sim" required>
+                        <label for="trabalou-s">Sim</label><br/>
+                        <input type="radio" name="Trabalhounaempresa" id="trabalhou-n" value="Não" required>
+                        <label for="trabalou-s">Não</label><br/>
+                    </div><br/>
+                    
+                    <div>
+                        <input type="text" name="Qualfoiafunção" id="funcao" maxlength="100" placeholder="Se sim, qual função?"
+                            autofocus />
+                    </div><br />
+    
+                    <div>
+                        <input type="text" name="Qualfoioperíodo" id="periodo" maxlength="100" placeholder="Qual o período?"
+                            autofocus />
+                    </div><br />
+            </div>
 
-        <section id="trabalhe">
-            <form id="form1" action="processa.php" method="POST">
+        <div id="2">
+            <h3>2) Contato</h3>
+        <div>
+            <input type="tel" name="TelefonedoCandidato" id="telefone1" maxlength="20" placeholder="Telefone"
+                    autofocus />
 
-                <h3>3) Dados Pessoais</h3><br />
-                <div>
-                    <input type="text" name="NomedoCandidato" id="nome" maxlength="100" placeholder="Nome" required
-                        autofocus />
-                </div><br />
+            <input type="tel" name="CelulardoCandidato" id="celular" maxlength="20" placeholder="Celular"
+                   required autofocus />
+        </div><br />
+        
+        <div>
+            <input type="email" name="E-maildoCandidato" id="email1" maxlength="200" placeholder="E-mail" 
+                required autofocus />
+        </div><br />
+        
+        </div>
+        </form>
+    </div>
+    <div id="bt_cv">
+    <button type="submit "form="form1" value="Enviar">Enviar</button>
+    </div>
 
-                <div>
-                    <input type="text" name="CategoriadaCNH" id="cnh" maxlength="100" placeholder="CNH/Categoria" 
-                        autofocus />
-                </div><br />
-                
-                <div>
-                    <input type="text" name="NúmerodaCNH" id="n-cnh" maxlength="100" placeholder="Número CNH" 
-                        autofocus />
-                </div><br />
-
-                <div>
-                    <h4>Validade da CNH:</h4>
-                    <input type="date" name="ValidadedaCNH" id="validade"
-                           autofocus />
-                </div><br />
-
-                <div>
-                    <input type="text" name="NaturalidadedoCandidato" id="naturalidade" maxlength="100" placeholder="Naturalidade" 
-                        autofocus required/>
-                </div><br />
-                
-                <div>
-                    <input type="text" name="IdadedoCandidato" id="idade" maxlength="100" placeholder="Idade" 
-                        autofocus required />
-                </div><br />
-
-                <div>
-                    <label for="sexo"><h4>Sexo</h4></label>
-                    <select id="sexo" name="SexodoCandidato" required>
-                        <option value="Masculino">Masculino</value>
-                        <option value="Feminino">Feminino</value>
-                    </select>
-                </div><br/>
-                
-                <div>
-                    <input type="text" name="EstadoCivildoCandidato" id="civil" maxlength="100" placeholder="Estado Civil"
-                        autofocus required />
-                </div><br />
-
-                <div>
-                    <input type="text" name="GraudeEscolaridadedoCandidato" id="escolaridade" maxlength="100" placeholder="Grau de Escolaridade"
-                        autofocus required />
-                </div><br />
-
-            </form>
-
-                <div id="bt_cv">
-                    <a href="./trabalheconosco2.html"><button id="bt_cv1"> << Anterior</button></a>
-                
-                <a href="./trabalheconosco4.html"><button id="bt_cv2">Próximo >></button></a>
-            </div>    
         </section>
 
 <!--Rodapé-->

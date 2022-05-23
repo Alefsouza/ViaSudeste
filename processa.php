@@ -1,4 +1,5 @@
 <?php
+    header('Content-Type: text/html; charset=UTF-8');
     date_default_timezone_set('America/Sao_Paulo');
 
     require_once ('src/PHPMailer.php');
@@ -44,10 +45,10 @@
 
 if($CargoPretendido && $EnderecoCandidato && $CidadeCandidato && $EstadoCandidato && $CepCandidato && $TrabalhouNaEmpresa && $CelularCandidato && $EmailCandidato &&
 $NomeCandidato && $Naturalidade && $IdadeCandidato && $SexoCandidato && $EstadoCivil && $GrauEscolaridade && $UltimoEmprego && $MotivoSaida){
-    $mail = new PHPMailer ();
-
-        $mail->charSet = "UTF-8";
-        $mail->SMTPDebug = 2;
+        
+        $mail = new PHPMailer ();
+    
+        $mail->CharSet = 'UTF-8';
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
@@ -57,11 +58,12 @@ $NomeCandidato && $Naturalidade && $IdadeCandidato && $SexoCandidato && $EstadoC
         $mail->Port = 587;
 
         $mail->setFrom('aleefsoouza024@gmail.com');
-        $mail->addAddress('aleefsoouza024@gmail.com');
+        $mail->addAddress('alef.silva@viasudeste.com');
 
         $mail->isHTML(true);
-        $mail->Subject = "Curriculo {$NomeCandidato} - {$CargoPretendido}";
+        $mail->Subject = "Currículo - Nome: {$NomeCandidato} - Vaga: {$CargoPretendido}";
         $mail->Body = "<strong>Segue os dados do nosso Candidato:</strong><br><br>
+
                         Nome: {$NomeCandidato}<br>
                         Cargo que deseja ocupar: {$CargoPretendido}<br>
                         Endereço: {$EnderecoCandidato}<br>
@@ -74,7 +76,6 @@ $NomeCandidato && $Naturalidade && $IdadeCandidato && $SexoCandidato && $EstadoC
                         Sexo: {$SexoCandidato}<br>
                         Estado Civil: {$EstadoCivil}<br>
                         Grau de Escolaridade: {$GrauEscolaridade}<br><br>
-
 
                         Telefone: {$TelefoneCandidato}<br>
                         Celular: {$CelularCandidato}<br>
@@ -101,51 +102,49 @@ $NomeCandidato && $Naturalidade && $IdadeCandidato && $SexoCandidato && $EstadoC
 
                         Data: {$data}<br>
 
-                        <strong>Para qualquer problema ou dúvida, por favor mandar e-mail para: ti@viasudeste.com</strong>
-                        ";
+                        <strong>Para qualquer problema ou dúvida, por favor mandar e-mail para: ti@viasudeste.com</strong>";
                         
         $mail->AltBody = "Segue os dados do nosso Candidato:<br><br>
-        Nome: {$NomeCandidato}<br>
-        Cargo que deseja ocupar: {$CargoPretendido}<br>
-        Endereço: {$EnderecoCandidato}<br>
-        Cidade: {$CidadeCandidato}<br>
-        Estado: {$EstadoCandidato}<br>
-        CEP: {$CepCandidato}<br><br>
+                        Nome: {$NomeCandidato}<br>
+                        Cargo que deseja ocupar: {$CargoPretendido}<br>
+                        Endereço: {$EnderecoCandidato}<br>
+                        Cidade: {$CidadeCandidato}<br>
+                        Estado: {$EstadoCandidato}<br>
+                        CEP: {$CepCandidato}<br><br>
 
-        Naturalidade: {$Naturalidade}<br>
-        Idade: {$IdadeCandidato}<br>
-        Sexo: {$SexoCandidato}<br>
-        Estado Civil: {$EstadoCivil}<br>
-        Grau de Escolaridade: {$GrauEscolaridade}<br><br>
+                        Naturalidade: {$Naturalidade}<br>
+                        Idade: {$IdadeCandidato}<br>
+                        Sexo: {$SexoCandidato}<br>
+                        Estado Civil: {$EstadoCivil}<br>
+                        Grau de Escolaridade: {$GrauEscolaridade}<br><br>
 
 
-        Telefone: {$TelefoneCandidato}<br>
-        Celular: {$CelularCandidato}<br>
-        E-mail: {$EmailCandidato}<br><br>
+                        Telefone: {$TelefoneCandidato}<br>
+                        Celular: {$CelularCandidato}<br>
+                        E-mail: {$EmailCandidato}<br><br>
 
-        Indicação: {$Indicacao}<br>
-        Já trabalhou na empresa? {$TrabalhouNaEmpresa}<br>
-        Em qual a função? {$Qualfuncao}<br>
-        Qual foi o período? {$Qualperiodo}<br><br>
+                        Indicação: {$Indicacao}<br>
+                        Já trabalhou na empresa? {$TrabalhouNaEmpresa}<br>
+                        Em qual a função? {$Qualfuncao}<br>
+                        Qual foi o período? {$Qualperiodo}<br><br>
         
-        Qual a categoria da CNH? {$CategoriaCNH}<br>
-        Qual o número da CNH? {$NumeroCNH}<br>
-        Qual a validade da CNH? {$ValidadeCNH}<br><br>
+                        Qual a categoria da CNH? {$CategoriaCNH}<br>
+                        Qual o número da CNH? {$NumeroCNH}<br>
+                        Qual a validade da CNH? {$ValidadeCNH}<br><br>
         
-        Qual foi o último emprego? {$UltimoEmprego}<br>
-        Qual foi o último cargo? {$UltimoCargo}<br>
-        Qual o endereço do último emprego? {$EndUltimoEmprego}<br>
-        Qual o telefone do último emprego? {$TelUltimoEmprego}<br>
-        Qual foi a data de admissão? {$DataAdmissao}<br>
-        Qual foi a data de demissão? {$DataDemissao}<br>
-        Qual foi o salário inicial? {$SalarioInicial}<br>
-        Qual foi o salário final? {$SalarioFinal}<br>
-        Qual foi o motivo da saída? {$MotivoSaida}<br><br>
+                        Qual foi o último emprego? {$UltimoEmprego}<br>
+                        Qual foi o último cargo? {$UltimoCargo}<br>
+                        Qual o endereço do último emprego? {$EndUltimoEmprego}<br>
+                        Qual o telefone do último emprego? {$TelUltimoEmprego}<br>
+                        Qual foi a data de admissão? {$DataAdmissao}<br>
+                        Qual foi a data de demissão? {$DataDemissao}<br>
+                        Qual foi o salário inicial? {$SalarioInicial}<br>
+                        Qual foi o salário final? {$SalarioFinal}<br>
+                        Qual foi o motivo da saída? {$MotivoSaida}<br><br>
 
-        Data: {$data}<br>
+                        Data: {$data}<br>
 
-        Para qualquer problema ou dúvida, por favor mandar e-mail para: ti@viasudeste.com
-        ";
+                        Para qualquer problema ou dúvida, por favor mandar e-mail para: ti@viasudeste.com";
 
         if ($mail->send()) {
             echo "<strong>E-mail enviado com sucesso!</strong>";
