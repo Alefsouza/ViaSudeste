@@ -58,7 +58,7 @@ $NomeCandidato && $Naturalidade && $IdadeCandidato && $SexoCandidato && $EstadoC
         $mail->Port = 587;
 
         $mail->setFrom('aleefsoouza024@gmail.com');
-        $mail->addAddress('alef.silva@viasudeste.com');
+        $mail->addAddress('rh@viasudeste.com');
 
         $mail->isHTML(true);
         $mail->Subject = "Currículo - Nome: {$NomeCandidato} - Vaga: {$CargoPretendido}";
