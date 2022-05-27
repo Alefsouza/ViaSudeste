@@ -685,9 +685,10 @@ button.slick-next {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #dcdcdc;    
-    font-family: Calibri;   
-    padding: 60px;
-    margin: auto;
+    font-family: Calibri;
+    text-align: center;  
+    padding: 55px;
+    margin: 10px auto;
 }
 
 #imgPla{
@@ -700,7 +701,7 @@ button.slick-next {
     background-color: #dcdcdc;
     text-align: center;    
     font-family: Calibri;
-    margin: auto;
+    
 }
 
 #departamentos #Manutenção{
