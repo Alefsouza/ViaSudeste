@@ -243,6 +243,7 @@ button.slick-next {
 
 #fullcorpo {
     background-color: #f4f4f4;
+    
 }
 
 #topo {
@@ -255,6 +256,7 @@ button.slick-next {
     text-align: center;
     padding: 20px;
     font-family: Calibri;
+    font-size: 20px;
 }
 
 #topo h1 {
@@ -886,7 +888,6 @@ button.slick-next {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ffffff;
     text-align: center;    
     font-family: Calibri;
     margin: 30px auto;
@@ -1507,7 +1508,6 @@ button.slick-next {
         height: 45vh;
         justify-content: center;
         flex-direction: column;
-        background-color: #ffffff;
         height: auto;
     }
     
@@ -1516,7 +1516,6 @@ button.slick-next {
         height: 45vh;
         justify-content: center;
         flex-direction: column;
-        background-color: #ffffff;
         height: auto;
     }
     
@@ -1530,9 +1529,17 @@ button.slick-next {
         height: 230vh;
         justify-content: center;
         flex-direction: column;
-        background-color: #ffffff;
+        background-color: #dcdcdc;
         height: auto;
-    }   
+    }
+
+    #fullsobre{
+        background-color: #f4f4f4;
+    }
+
+    #ISOfull {
+        background-color: #f4f4f4;
+    }
     
     
 
@@ -1543,7 +1550,7 @@ button.slick-next {
     height: 230vh;
     justify-content: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     height: auto;
 }
 
