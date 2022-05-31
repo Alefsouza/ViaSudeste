@@ -1459,6 +1459,12 @@ button.slick-next {
         max-height: 200px;
     }
 
+    /*Slider*/
+    .header2 {
+        max-width: 100%;
+        width: 300px auto;
+    }
+
     /*Corpo Site*/
 
     #topo {
