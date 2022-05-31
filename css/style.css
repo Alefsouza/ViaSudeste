@@ -1436,6 +1436,7 @@ button.slick-next {
         margin-left: -100%;
         transition: all .4s;
         height: auto;
+        font-family: Calibri;
     }
 
     #bt_menu:checked ~ .menu {
@@ -1473,6 +1474,7 @@ button.slick-next {
         justify-content: center;
         flex-direction: column;
         height: auto;
+        font-family: Calibri;
     }
 
     /*Notícias*/
@@ -1484,6 +1486,7 @@ button.slick-next {
         flex-direction: column;
         height: auto;
         align-items: auto;
+        font-family: Calibri;
     }
 
 
@@ -1496,6 +1499,7 @@ button.slick-next {
             flex-direction: column;
             height: auto;
             align-items: auto;
+            font-family: Calibri;
         }
 
     /*Rodape*/
@@ -1506,6 +1510,7 @@ button.slick-next {
         justify-content: center;
         flex-direction: column;
         height: auto;
+        font-family: Calibri;
     }
 
     #rodape {
@@ -1515,6 +1520,7 @@ button.slick-next {
         flex-direction: column;
         background-color: #dcdcdc;
         height: auto;
+        font-family: Calibri;
     }
 
 /*INSTITUCIONAL - Sobre nós*/
@@ -1525,6 +1531,7 @@ button.slick-next {
         justify-content: center;
         flex-direction: column;
         height: auto;
+        font-family: Calibri;
     }
     
     #sobrenos_texto {
@@ -1533,6 +1540,7 @@ button.slick-next {
         justify-content: center;
         flex-direction: column;
         height: auto;
+        font-family: Calibri;
     }
     
     #sobrenos_texto img {
@@ -1547,14 +1555,17 @@ button.slick-next {
         flex-direction: column;
         background-color: #dcdcdc;
         height: auto;
+        font-family: Calibri;
     }
 
     #fullsobre{
         background-color: #f4f4f4;
+        font-family: Calibri;
     }
 
     #ISOfull {
         background-color: #f4f4f4;
+        font-family: Calibri;
     }
     
     
@@ -1568,6 +1579,7 @@ button.slick-next {
     flex-direction: column;
     background-color: #f4f4f4;
     height: auto;
+    font-family: Calibri;
 }
 
 #imgRH img{
@@ -1583,6 +1595,7 @@ button.slick-next {
     background-color: #dcdcdc;
     height: auto;
     margin: auto;
+    font-family: Calibri;
     
 }   
 
@@ -1604,6 +1617,7 @@ button.slick-next {
     flex-direction: column;
     background-color: #ffffff;
     height: auto;
+    font-family: Calibri;
 }
 
 #imgMan {
@@ -1624,6 +1638,7 @@ button.slick-next {
 #itinerarios {
     justify-content: center;
     margin-left: 10px;
+    font-family: Calibri;
 }
 
 /*ITINERARIOS - Linhas*/
@@ -1632,6 +1647,7 @@ button.slick-next {
     justify-content: center;
     flex-direction: column;
     margin-left: 10px;
+    font-family: Calibri;
 }
 
 #linha h3{
@@ -1639,6 +1655,7 @@ button.slick-next {
     flex-direction: column;
     margin-left: 10px;
     text-align: center;
+    font-family: Calibri;
 }
 
 /*CONTATO - Localização*/
@@ -1649,6 +1666,7 @@ button.slick-next {
     justify-content: center;
     flex-direction: column;
     height: auto;
+    font-family: Calibri;
 }
 
 /*CONTATO - Fale Conosco*/
@@ -1659,6 +1677,7 @@ button.slick-next {
     justify-content: center;
     flex-direction: column;
     height: auto;
+    font-family: Calibri;
 }
 /*CONTATO - Trabalhe Conosco*/
 
