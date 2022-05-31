@@ -367,6 +367,10 @@ button.slick-next {
     text-decoration: none;
 }
 
+#novidades1 div:hover {
+    font-weight: bolder;
+}
+
 .clock-noticias:before {
     width: 15px;
     height: 15px;
@@ -394,7 +398,7 @@ button.slick-next {
     margin-top: auto;
     margin: auto;
     cursor: pointer;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     padding: 20px;
 }
 
@@ -549,13 +553,18 @@ button.slick-next {
 }
 
 #sobrenos_texto div>p{
-    padding: 50px;
-    margin: 0 50px;
+    padding: 30px;
 }
 
 #sobrenos_texto div>img{
     padding: auto;
     margin: 0 50px;
+}
+
+#sobrenos_texto div>h2 {
+    color: green;
+    font-size: 30px;
+    font-family: Calibri;
 }
 
 #sobrenos {
