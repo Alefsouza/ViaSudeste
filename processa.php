@@ -149,7 +149,7 @@ $NomeCandidato && $Naturalidade && $IdadeCandidato && $SexoCandidato && $EstadoC
         if ($mail->send()) {
             echo "<strong>E-mail enviado com sucesso!</strong>";
         } else {
-                echo "<strong>E-mail não foi enviado!</strong>";
+                echo "<strong>E-mail não foi enviado! Por favor tente novamente mais tarde!</strong>";
         } 
     }else {
         echo "<strong>E-mail não enviado, por favor preencher campos necessários!</strong>";
