@@ -660,6 +660,212 @@ button.slick-next {
     
 }
 
+/*Compliance*/
+
+#fullcompliance {
+    background-color: #f4f4f4;
+}
+
+#compliance_topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;    
+    font-family: Calibri;   
+    margin-top: 10px auto;
+    padding: 15px;
+}
+
+#compliance_topo h1 {
+    color: green;
+    font-size: 50px;
+    font-family: Calibri;
+    margin-top: 20px;
+}
+
+#compliance_texto {
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;    
+    font-family: Calibri;
+    padding: 30px;
+    font-size: 18px;
+}
+
+#compliance_p b{
+    color: green;
+}
+
+#compliance_texto div>p{
+    padding: 30px;
+}
+
+#compliance_texto div>img{
+    padding: auto;
+    margin: 0 50px;
+}
+
+#compliance_texto div>h2 {
+    color: green;
+    font-size: 30px;
+    font-family: Calibri;
+}
+
+#compliance_texto div>h3 {
+    color: green;
+    font-size: 22px;
+    font-family: Calibri;
+    font-weight: bolder;
+}
+
+#compliance_p {
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+#compliance_texto2 {
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;    
+    font-family: Calibri;
+}
+
+#compliance_texto2 h2 {
+    color: green;
+    font-size: 30px;
+    font-family: Calibri;
+}
+
+#compliance_texto2 div{
+    width: 48%;
+    padding: 30px;
+}
+
+#riscos {
+        display: flex;
+        flex-direction: row;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;    
+        font-family: Calibri;
+        padding: 30px;
+        background-color: #dcdcdc;
+    
+}
+
+#riscos h2{
+        color: green;
+        font-size: 30px;
+        font-family: Calibri;
+        margin-top: 20px;
+        text-align: center; 
+}
+
+#riscos summary {
+    margin-top: 10px;
+    color: green;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#riscos summary:hover{
+    font-weight: bolder;
+}
+
+
+#riscos>p {
+    margin: 30px;
+    margin-top: auto;
+}
+
+#riscos div p {
+    margin: auto 10px;
+    
+}
+
+#integridade {
+    display: flex;
+    flex-direction: row-reverse;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;    
+    font-family: Calibri;
+    padding: 60px;
+    background-color: #f4f4f4;
+    align-items: center;
+
+}
+
+#integridade h2{
+    color: green;
+    font-size: 30px;
+    font-family: Calibri;
+    margin-top: 20px;
+    text-align: center; 
+}
+
+/*LGPD*/
+
+#fulllgpd {
+    background-color: #f4f4f4;
+}
+
+#lgpd_topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;    
+    font-family: Calibri;   
+    margin-top: 10px auto;
+    padding: 15px;
+}
+
+#lgpd_topo h1 {
+    color: green;
+    font-size: 50px;
+    font-family: Calibri;
+    margin-top: 20px;
+}
+
+#lgpd_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;    
+    font-family: Calibri;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#lgpd_texto h2{
+    font-weight: bold;
+    color: green;
+    background-color: #dcdcdc;
+    font-size: 30px;
+}
+
+#lgpd_texto b{
+    color: green;
+}
+
 /*INSTITUCIONAL - Departamento*/
 
 #departamentos_topo {
@@ -758,6 +964,10 @@ button.slick-next {
     padding: 60px;
     margin: auto;
     background-color: #f4f4f4;
+}
+
+#Manutenção b{
+    color: green;
 }
 
 #imgMan{
@@ -908,6 +1118,7 @@ button.slick-next {
     font-family: Calibri;
     font-size: 11px;
     color: black;
+    font-weight: bolder;
 }
 
 /*CONTATO - Fale Conosco*/
@@ -1568,7 +1779,7 @@ button.slick-next {
         font-family: Calibri;
     }
     
-    
+
 
 /*INSTITUCIONAL - Departamentos*/
 
@@ -1679,6 +1890,47 @@ button.slick-next {
     height: auto;
     font-family: Calibri;
 }
-/*CONTATO - Trabalhe Conosco*/
+/*Compliance*/
+
+#compliance_texto img {
+    max-width: 100%;
+    width: 80px;
+}
+
+#compliance_p {
+    font-size: 13px;
+}
+
+#fullcompliance {
+    height: 600px;
+    height: 130vh;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    font-family: Calibri;
+}
+
+#compliance_texto2 img {
+    max-width: 100%;
+    width: 80px;
+}
+
+#riscos img {
+    max-width: 100%;
+    width: 200px;
+}
+
+#riscos {
+    flex-direction: column;
+}
+
+#integridade img {
+    max-width: 100%;
+    width: 400px;
+}
+
+#integridade {
+    flex-direction: column;
+}
 
 }
