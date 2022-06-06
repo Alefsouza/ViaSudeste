@@ -1815,9 +1815,13 @@ button.slick-next {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 #texto_identificar b{
     color: green;
 }
+=======
+
+>>>>>>> 1b9d957c1f4a0ff17614f62c1870a30a621bf805
 
 #texto_identificar button {
     width: 120px;
