@@ -759,6 +759,11 @@ button.slick-next {
     padding: 30px;
 }
 
+#compliance_div a{
+    color: green;
+    text-decoration: none;
+}
+
 #riscos {
         display: flex;
         flex-direction: row;
@@ -1795,6 +1800,73 @@ button.slick-next {
     background-color: #f4f4f4;
     color: green;
     font-weight: bolder;
+}
+
+#texto_identificar{
+    font-size: 18px;
+    color: black;
+    font-family: Calibri;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-decoration: none;
+}
+
+#texto_identificar b{
+    color: green;
+}
+
+#texto_identificar button {
+    width: 120px;
+    height: 45px;
+    border: solid 2px black;
+    background-color: green;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bolder;
+    margin: auto 2px;
+    font-family: Calibri;
+
+}
+
+#texto_identificar button:hover {
+    border: solid 2px black;
+    background-color: #f4f4f4;
+    color: green;
+    font-weight: bolder;
+}
+
+#conf-nome {
+    width: 99.6%;
+}
+
+#conf-funcao {
+    width: 99.6%;
+}
+
+#conf-email {
+    width: 49.5%;
+}
+
+#conf-tel {
+    width: 49.5%;
+}
+
+
+#conf-cel {
+    width: 49.5%;
+}
+
+#relato {
+    width: 49.5%
+}
+
+#local-relato {
+    width: 49.5%;
 }
 
 @media only screen and (max-width: 980px) {
