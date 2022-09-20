@@ -218,7 +218,7 @@ label[for="bt_menu"]{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-image: url('../img/fundoSite1.jpg');
+    /*background-image: url('../img/fundoSite1.jpg');*/
     background-color: #f4f4f4;
 }
 
@@ -1921,6 +1921,12 @@ button.slick-next {
     .header2 {
         max-width: 100%;
         width: 300px auto;
+        height: 100px auto;
+    }
+
+    .header2 img{
+        max-width: auto;
+        max-height: 100px auto;
     }
 
     /*Corpo Site*/
